@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install)",
+      "Bash(npm run build:*)",
+      "Bash(CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go build:*)",
+      "Bash(git init:*)"
+    ]
+  }
+}
